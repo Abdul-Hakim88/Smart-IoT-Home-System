@@ -24,29 +24,6 @@ Flutter App (Mobile)
   Load (AC/DC Appliances)
 ```
 
----
-
-## Repository Structure
-
-```
-smart-home-iot/
-├── firmware/
-│   └── smart_home/
-│       └── smart_home.ino        # ESP32 Arduino firmware
-├── app/
-│   ├── lib/
-│   │   └── main.dart             # Flutter application
-│   └── pubspec.yaml
-├── hardware/
-│   ├── BOM.md                    # Bill of materials
-│   └── schematic/                # KiCad / Altium project files
-├── .gitignore
-├── LICENSE
-└── README.md
-```
-
----
-
 ## Hardware
 
 ### Bill of Materials
