@@ -40,7 +40,6 @@ Flutter App (Mobile)
 | 1   | Capacitor         | 4.7 µF electrolytic  | 3.3V bulk decoupling             |
 | 4   | Capacitor         | 100 nF ceramic       | IC supply decoupling             |
 | 8   | Screw Terminal    | 2-pin, 5.08mm pitch  | Load side output                 |
-| 1   | Voltage Regulator | AMS1117-3.3 or LM1117| 5V → 3.3V for ESP32             |
 
 ### GPIO Assignment
 
@@ -77,11 +76,6 @@ Relay Contact:
 5V rail:
   10µF  (electrolytic) — at power entry point
   100nF (ceramic)      — near transistor array
-
-3.3V rail:
-  4.7µF (electrolytic) — at regulator output
-  100nF (ceramic)      — at ESP32 VCC pin
-```
 
 ### PCB Design Guidelines
 
